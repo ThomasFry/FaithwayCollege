@@ -1,0 +1,142 @@
+/* Text */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: rgb(7, 7, 124);
+}
+
+h3 {
+    color: rgb(7, 7, 124);
+}
+
+p {
+    margin-bottom: 1rem;
+    padding-bottom: 0;
+}
+
+/* Navigation Bar */
+
+#main-nav {
+    height: 126px;
+}
+
+.nav-bar-top {
+    padding-right: 10%;
+}
+
+
+.logo2-image {
+    width: 7rem;
+    overflow: hidden;
+    margin-top: -6px;
+    margin-bottom: -6px;
+    margin-left: 100%;
+
+}
+
+.nav-link {
+    font-size: x-large;
+    color: rgb(7, 7, 124);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.dropdown-menu {
+    background-color: lightblue;
+    border-width: 0;
+}
+
+/* General */
+
+#top-container {
+    padding: 2% 10% 2% 10%;
+}
+
+.bottom-container {
+    height: 10rem;
+}
+
+
+/* Home page */
+
+
+#home-page-image {
+    position: relative;
+}
+
+.home-img {
+    width: 100%;
+}
+
+.home-page-welcome {
+    background-color: rgb(7, 7, 124, .6);
+    position: absolute;
+    bottom: 20%;
+    right: 5rem;
+    font-size: 200rem;
+    text-align: right;
+    border-radius: .5rem;
+
+}
+
+.home-page-welcome h1 {
+    color: white;
+    margin: 1rem;
+}
+
+#home-page-intro {
+    text-align: left;
+    padding: 5% 10% 5% 10%;
+}
+
+#home-footer {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 5% 10% 2% 10%;
+    text-align: left;
+}
+
+
+/* About us page */
+
+.about-us-img {
+    width: 90%;
+}
+
+.about-us-text {
+    padding-top: 3rem;
+}
+
+/* Admissions page */
+
+
+/* Footer */
+.footer-thin {
+    height: 5rem;
+    background-color: lightblue;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    padding-top: 1rem;
+
+}
+
+ .footer-thin-left {
+  padding-left: 10%; 
+
+ }
+
+ .footer-thin-right {
+    text-align: right;
+    padding-right: 10%; 
+  
+   }
