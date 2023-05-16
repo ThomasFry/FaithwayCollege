@@ -18,8 +18,17 @@ let navbar = `
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        About
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="school.html">The school</a></li>
+                        <li><a class="dropdown-item" href="vision.html">Vision & mission</a></li>
+                        <li><a class="dropdown-item" href="#">Meet the staff</a></li>
+                        <li><a class="dropdown-item" href="#">Meet the board</a></li>
+                    </ul>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -28,9 +37,13 @@ let navbar = `
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="admissions.html">Overview</a></li>
-                        <li><a class="dropdown-item" href="#">School Fees</a></li>
-                        <li><a class="dropdown-item" href="#">Further information</a></li>
+                        <li><a class="dropdown-item" href="#">Code of conduct</a></li>
+                        <li><a class="dropdown-item" href="#">School fees</a></li>
+                        <li><a class="dropdown-item" href="#">Why Faithway</a></li>
                     </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Curriculum</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="">News</a>
@@ -44,12 +57,11 @@ let navbar = `
                             More
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">TBD</a></li>
-                            <li><a class="dropdown-item" href="#">TBD</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">TBD</a></li>
+                            <li><a class="dropdown-item" href="#">Gallery</a></li>
+                            <li><a class="dropdown-item" href="#">Term planner</a></li>
+                            <li><a class="dropdown-item" href="#">Term dates</a></li>
+                            <li><a class="dropdown-item" href="uniforms.html">Uniforms</a></li>
+                            <li><a class="dropdown-item" href="#">Book and stationery lists</a></li>
                         </ul>
                     </li>
 
